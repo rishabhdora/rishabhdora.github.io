@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishabh Dora | Theoretical & Computational Physics</title>
+  <meta name="description" content="PhD candidate in Chemistry at the University of Rochester. Research on light-matter interactions and quantum transport." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav>
+  <div class="container">
+    <span class="nav-logo">Rishabh Dora</span>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">PhD Candidate · University of Rochester</p>
+        <h1>Rishabh Dora</h1>
+        <p class="tagline">
+          Theoretical and computational scientist working on
+          light-matter interactions and quantum charge transport.
+          I build physics-based simulations and high-performance workflows
+          bridging electromagnetic theory with quantum dynamics.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="assets/resume.pdf" target="_blank">Download CV</a>
+          <a class="btn btn-outline" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <!-- Replace src with your actual photo path, e.g. assets/photo.jpg -->
+        <img class="hero-photo" src="assets/main.jpeg" alt="Rishabh Dora" />      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about">
+  <div class="container">
+    <p class="section-label">About</p>
+
+    <div class="fade-in">
+      <p>
+        I am a PhD student in the <strong>Department of Chemistry at the University of Rochester</strong>,
+        working in the group of <strong>Prof. Ignacio Franco</strong> with
+        main focus on light-matter interactions and quantum transport.
+      </p>
+      <p>
+        Before Rochester, I completed a <strong>BS-MS (Dual Degree) in Physics</strong> from the
+        Indian Institute of Science Education and Research (IISER) Bhopal,
+        where I investigated polaron transport in optomechanical arrays as part of my MS thesis under supervison 
+        of <strong>Prof. Sebastian Wuester</strong>  .
+      </p>
+      <p>
+        My work spans the development of numerical simulation software — from finite-difference time-domain
+        (FDTD) electromagnetic
+        simulations for spatially varying laser fields, to time-dependent quantum transport
+        using nonequilibrium Green's function (NEGF) methods — deployed on high-performance computing
+        clusters using parallelized Fortran/Python codes.
+      </p>
+    </div>
+
+    <hr />
+
+    <!-- Education -->
+    <p class="section-label fade-in">Education</p>
+    <div class="fade-in">
+      <div class="edu-item">
+        <div>
+          <div class="edu-deg">PhD, Chemistry</div>
+          <div class="edu-inst">University of Rochester, Rochester NY, USA</div>
+        </div>
+        <div class="edu-year">2022 - Present</div>
+      </div>
+      <div class="edu-item">
+        <div>
+          <div class="edu-deg">MS, Chemistry &nbsp;<span style="font-weight:300;font-size:.85rem">(GPA 3.95/4.0)</span></div>
+          <div class="edu-inst">University of Rochester, Rochester NY, USA</div>
+        </div>
+        <div class="edu-year">2022 - 2024</div>
+      </div>
+      <div class="edu-item">
+        <div>
+          <div class="edu-deg">BS-MS (Dual Degree), Major: Physics &nbsp;<span style="font-weight:300;font-size:.85rem">(CPI 8.64/10)</span></div>
+          <div class="edu-inst">IISER Bhopal, India</div>
+        </div>
+        <div class="edu-year">2017 - 2022</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Skills -->
+    <p class="section-label fade-in">Computational Skills</p>
+    <div class="skills-grid fade-in">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <ul class="skill-list">
+          <li>Python</li>
+          <li>Fortran</li>
+          <li>C</li>
+          <li>Julia</li>
+          <li>MATLAB</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>HPC &amp; Parallel</h4>
+        <ul class="skill-list">
+          <li>MPI / OpenMPI</li>
+          <li>MPI4PY</li>
+          <li>Linux / Bash</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>Simulation Tools</h4>
+        <ul class="skill-list">
+          <li>MEEP (FDTD)</li>
+          <li>QuantumESPRESSO</li>
+          <li>Wannier90</li>
+          <li>XMDS</li>
+          <li>Mathematica</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>Libraries</h4>
+        <ul class="skill-list">
+          <li>NumPy / SciPy</li>
+          <li>Scikit-Learn</li>
+          <li>Matplotlib</li>
+          <li>Sundials</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TALKS ==========
+<section id="talks">
+  <div class="container">
+    <p class="section-label fade-in">Presentations &amp; Conferences</p>
+
+    <div class="fade-in">
+      <div class="talk-item">
+        <div class="talk-date">Aug 2025</div>
+        <div>
+          <div class="talk-type">Talk</div>
+          <div class="talk-title">"Light–matter interactions beyond the dipole approximation"</div>
+          <div class="talk-venue">Gordon Research Seminar on Quantum Control of Light and Matter · Salve Regina University</div>
+        </div>
+      </div>
+      <div class="talk-item">
+        <div class="talk-date">Aug 2025</div>
+        <div>
+          <div class="talk-type">Poster</div>
+          <div class="talk-title">"Light–matter interactions beyond the dipole approximation"</div>
+          <div class="talk-venue">Gordon Research Conference on Quantum Control of Light and Matter · Salve Regina University</div>
+        </div>
+      </div>
+      <div class="talk-item">
+        <div class="talk-date">Jun 2025</div>
+        <div>
+          <div class="talk-type">Poster</div>
+          <div class="talk-title">"Light–matter interactions beyond the dipole approximation"</div>
+          <div class="talk-venue">Center for Coherence and Quantum Science (CQS-12) · University of Rochester</div>
+        </div>
+      </div>
+      <div class="talk-item">
+        <div class="talk-date">Nov 2021</div>
+        <div>
+          <div class="talk-type">Conference</div>
+          <div class="talk-title">Cold-atom On-Line Meeting (CoOLMe 2021)</div>
+          <div class="talk-venue">French national research network on Cold Atoms</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- ========== CONTACT ========== -->
+<section id="contact">
+  <div class="container">
+    <p class="section-label fade-in">Contact</p>
+    <p class="fade-in" style="margin-bottom:1.75rem; max-width:520px;">
+      The best way to reach me is by email. I am happy to discuss science,
+      potential collaborations, and questions about my codes or research.
+    </p>
+    <div class="contact-grid fade-in">
+      <a class="contact-item" href="mailto:rdora@ur.rochester.edu">
+        <span class="contact-icon">✉</span>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-val">rdora@ur.rochester.edu</div>
+        </div>
+      </a>
+      <a class="contact-item" href="https://github.com/rishabhdora" target="_blank">
+        <span class="contact-icon">⌥</span>
+        <div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-val">github.com/rishabhdora</div>
+        </div>
+      </a>
+      <a class="contact-item" href="https://www.linkedin.com/in/rishabh-dora-555144214/" target="_blank">
+        <span class="contact-icon">⟁</span>
+        <div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-val">LinkedIn Profile</div>
+        </div>
+      </a>
+      <a class="contact-item" href="https://scholar.google.com/citations?user=nVBaC_kAAAAJ&hl=en" target="_blank">
+        <span class="contact-icon">🎓</span>
+        <div>
+          <div class="contact-label">Google Scholar</div>
+          <div class="contact-val">Rishabh Dora</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container">
+    © 2025 Rishabh Dora &nbsp;·&nbsp; University of Rochester &nbsp;·&nbsp; Department of Chemistry
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

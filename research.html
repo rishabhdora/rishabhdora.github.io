@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | Rishabh Dora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a class="nav-logo" href="index.html">Rishabh Dora</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <!-- <li><a href="index.html#talks">Talks</a></li> -->
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section style="padding-top: calc(var(--nav-h) + 4rem);">
+  <div class="container">
+    <p class="section-label">Research</p>
+    <h2>Light-Matter Interactions &amp; Quantum Transport</h2>
+    <p style="color:var(--text-dim); max-width:620px; margin-bottom:3rem;">
+      My research sits at the intersection of electromagnetic theory, quantum dynamics,
+      and high-performance computing, with the goal of understanding how laser fields
+      drive charge dynamics in molecular and nanoscale junctions.
+    </p>
+
+    <!-- Project 1 -->
+    <div class="research-block fade-in">
+      <div class="card">
+        <div class="card-meta">Graduate Research · University of Rochester </div>
+        <h3>Light-Matter Interactions Beyond the Dipole Approximation</h3>
+        <p>
+          The dipole approximation is the standard starting point for describing how light
+          couples to matter, but it breaks down for situations when the spot size of light is finite, 
+          at interfaces, or in complex electromagnetic environments.
+          We have developed a general theoretical and computational framework for modeling light-matter interactions
+          in extended systems beyond the dipole approximation.
+          We employ this framework to quantify the limitations of the ubiquitous dipole approximation 
+          and to overcome well-known issues associated with multipolar expansions. 
+        </p>
+        <div>
+          <span class="tag">Light-matter interactions</span>
+          <span class="tag">Beyond Dipole</span>
+          <span class="tag">Electromagnetic Simulations</span>
+          <!-- <span class="tag">Fortran / Python</span> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="research-block fade-in">
+      <div class="card">
+        <div class="card-meta">Graduate Research · University of Rochester </div>
+        <h3>Time-Dependent Quantum Transport </h3>
+        <p>
+          We implemented <strong>nonequilibrium Green's function (NEGF) methods</strong>
+          for <strong>time-dependent quantum transport</strong>.
+          The framework is applied to study laser-driven charge dynamics in atomistic junctions,
+          extracting physically meaningful observables relevant to light-field control and emergent phenomena in materials.
+        </p>
+        <div>
+          <span class="tag">NEGF</span>
+          <span class="tag">Quantum Transport</span>
+          <!-- <span class="tag">HPC / MPI</span> -->
+          <span class="tag">Laser-Driven Dynamics</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="research-block fade-in">
+      <div class="card">
+        <div class="card-meta">Graduate Research · University of Rochester</div>
+        <h3>Control of Real and Virtual Charge Carriers using ω + 2ω Pulses</h3>
+        <p>
+          Using a two-color (ω + 2ω) laser pulse scheme, we study the coherent control
+          of real and virtual charge carriers in gold-graphene-gold heterojunction. 
+          This work explores how the relative phase and amplitude of the two-color pulse components can be used
+          to selectively drive and control charge dynamics on ultrafast timescales.
+        </p>
+        <div>
+          <span class="tag">Coherent Control</span>
+          <span class="tag">Two-Color Pulses</span> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="research-block fade-in">
+      <div class="card">
+        <div class="card-meta">MS Thesis Research · IISER Bhopal · 2021-2022</div>
+        <h3>Polaron Transport in Optomechanical Arrays</h3>
+        <p>
+          For my MS thesis, we investigated <strong>polaron transport in optomechanical arrays</strong>
+          as a platform for quantum simulations. We developed model Hamiltonians for
+          electron-phonon coupling, and performed numerical simulations to study charge localization, transport,
+          and many-body effects.
+        </p>
+        <div>
+          <span class="tag">Polaron Transport</span>
+          <!-- <span class="tag">Electron–Phonon Coupling</span> -->
+          <span class="tag">Optomechanics</span>
+          <span class="tag">Many-Body Physics</span>
+        </div>
+        <p style="margin-top:1rem; margin-bottom:0;">
+          <a href="assets/ms_thesis.pdf" target="_blank">📄 Download MS Thesis (PDF)</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="research-block fade-in">
+      <div class="card">
+        <div class="card-meta">Summer Fellowship · ARIES Nainital · May-July 2019</div>
+        <h3>Binary Star Fractions in Open Star Clusters</h3>
+        <p>
+          As an <strong>IASc-INSA-NASI Summer Research Fellow</strong>, we performed
+          large-scale astrometric data analysis using <strong>Gaia DR2 data</strong>
+          to study the fraction of binary star systems in open star clusters.
+          We analyzed stellar proper motions using statistical filtering techniques
+          to separate cluster members from field stars and
+          identify binary candidates.
+        </p>
+        <div>
+          <!-- <span class="tag">Gaia DR2</span> -->
+          <span class="tag">Astrometry</span>
+          <span class="tag">Statistical Analysis</span>
+          <!-- <span class="tag">Mathematica</span> -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © 2025 Rishabh Dora &nbsp;·&nbsp; University of Rochester &nbsp;·&nbsp; Department of Chemistry
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
