@@ -33,10 +33,9 @@
         <p class="eyebrow">PhD Candidate · University of Rochester</p>
         <h1>Rishabh Dora</h1>
         <p class="tagline">
-          Theoretical and computational scientist working on
-          light-matter interactions and quantum charge transport.
-          I build physics-based simulations and high-performance workflows
-          bridging electromagnetic theory with quantum dynamics.
+          Theoretical and computational scientist developing scalable numerical models and scientific software for complex physical systems. 
+          I build Python and Fortran simulation workflows, analyze and visualize scientific data, and use high-performance computing 
+          to study quantum dynamics, nanoscale transport, and light–matter interactions.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="resume.pdf" target="_blank">Download CV</a>
@@ -63,7 +62,7 @@
       <p>
         Before Rochester, I completed a <strong>BS-MS (Dual Degree) in Physics</strong> from the
         Indian Institute of Science Education and Research (IISER) Bhopal,
-        where I investigated polaron transport in optomechanical arrays as part of my MS thesis under supervison 
+        where I investigated polaron transport in optomechanical arrays as part of my MS thesis under the supervison 
         of <strong>Prof. Sebastian Wuester</strong>  .
       </p>
       <p>
@@ -233,11 +232,10 @@
 </section>
 
 <!-- ========== FOOTER ========== -->
-<footer>
-  <div class="container">
-    © 2025 Rishabh Dora &nbsp;·&nbsp; University of Rochester &nbsp;·&nbsp; Department of Chemistry
-  </div>
-</footer>
+© <span id="year"></span> Rishabh Dora
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 <script src="main.js"></script>
 </body>
