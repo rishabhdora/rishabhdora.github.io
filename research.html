@@ -103,7 +103,7 @@
         <p>
           For my MS thesis, we investigated <strong>polaron transport in optomechanical arrays</strong>
           as a platform for quantum simulations. We developed model Hamiltonians for
-          electron-phonon coupling, and performed numerical simulations to study charge localization, transport,
+          photon-phonon coupling, and performed numerical simulations to study charge localization, transport,
           and many-body effects.
         </p>
         <div>
@@ -126,10 +126,11 @@
         <p>
           As an <strong>IASc-INSA-NASI Summer Research Fellow</strong>, we performed
           large-scale astrometric data analysis using <strong>Gaia DR2 data</strong>
-          to study the fraction of binary star systems in open star clusters.
+          for approximately 10,000 stars across two open clusters
+          to study the fraction of binary star systems.
           We analyzed stellar proper motions using statistical filtering techniques
           to separate cluster members from field stars and
-          identify binary candidates.
+          identify binary candidates. 
         </p>
         <div>
           <!-- <span class="tag">Gaia DR2</span> -->
@@ -144,9 +145,10 @@
 </section>
 
 <footer>
-  <div class="container">
-    © 2025 Rishabh Dora &nbsp;·&nbsp; University of Rochester &nbsp;·&nbsp; Department of Chemistry
-  </div>
+  © <span id="year"></span> Rishabh Dora
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </footer>
 
 <script src="main.js"></script>
